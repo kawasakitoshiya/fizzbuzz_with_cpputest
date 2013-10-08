@@ -29,3 +29,8 @@ TEST(FizzBuzz, TestSayFizz)
 {
   STRCMP_EQUAL("Fizz", fizzBuzz->say(3).c_str()); 
 }
+
+TEST(FizzBuzz, TestSayBuzz)
+{
+  STRCMP_EQUAL("Buzz", fizzBuzz->say(5).c_str()); 
+}
