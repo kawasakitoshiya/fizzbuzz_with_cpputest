@@ -1,0 +1,2 @@
+set(FIZZBUZZ fizzbuzz)
+add_library(${FIZZBUZZ} "fizzbuzz.cpp")
